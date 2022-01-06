@@ -1,0 +1,70 @@
+/*Navagation bar*/
+nav{
+    display: block;
+    margin: auto auto auto 20px;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+nav ul li{
+    padding: 0px;
+    border-bottom: none;
+}
+
+nav ul li a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+}
+
+.menuIcon{
+    display: none;
+}
+
+/* Navagation Bar Dropdown */
+nav a:hover, .dropdown:hover .dropBtn {
+    background-color: #F2F2F2;
+}
+
+.dropdown .dropBtn {
+    border: none;
+    outline: none;
+    background-color: #F2A007;
+    padding: 14px;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #F2A007;
+    z-index: 1;
+}
+
+.dropdownContent a:hover {
+    background-color: #F2F2F2;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    padding: 0px 0px 10px 10px;
+}

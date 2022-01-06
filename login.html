@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantor College: Login</title>
+    <link rel="shortcut icon" type="image/png" href="images\logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" media="only screen and (min-width:720px)" href="css/tablet.css">
+    <link rel="stylesheet" media="only screen and (min-width:900px)" href="css/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div name="container">
+        <header>
+            <div class="logoContainer">
+                <img src="images\logo.png" alt="Cantor College">
+            </div>
+            <div class="menuIcon" id="menuIcon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <nav id="nav">
+                <ul id="hamburger">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropBtn" id="CoursesDropBtn">Courses
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdownContent" id="CoursesDropdownContent">
+                                <a href="computingCourses.html">Computing</a>
+                                <a href="designCourses.html">Design</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="workingWithBusinesses.html">Working with businesses</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropBtn" id="StaffAndStudentsDropBtn">Staff and Students
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdownContent" id="StaffAndStudentsDropdownContent">
+                                <a href="learningResources.html">Learning Resources</a>
+                                <a href="infoForStaff.html">Information for Staff</a>
+                                <a href="infoForStudents.html">Information for Students</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="contactAndFindUs.html">Contact/Find Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="content">
+        <section>
+            <h1>Login Details</h1>
+            <form action="" method="post">
+                <label for="username">Username:</label>
+                <input type="text" name="username">
+                <label for="password">Password:</label>
+                <input type="password" name="pass">
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div id="socialsContainer">
+            <a href="https://www.facebook.com/">Facebook</a> |
+            <a href="https://www.instagram.com/">Instagram</a> |
+            <a href="https://www.twitter.com/">Twitter</a> |
+            <a href="https://www.youtube.com/">Youtube</a>
+        </div>
+        <div>
+            <a href="contactAndFindUs.html">Contact/Find Us</a>
+        </div>
+        <div>
+            <p id="copyright">Copyright &copy; of Cantor College 2021</p>  
+        </div>
+    </footer>
+</body>

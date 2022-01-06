@@ -1,0 +1,46 @@
+header{
+    display: flex;
+}
+
+.logoContainer{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding: 0px;
+}
+
+#content section{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    height: auto;
+}
+
+#map {
+    min-height: 500px;
+    padding-left: 10px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer p {
+    white-space: nowrap;
+}
+
+.flexContainerDiv {
+    flex-direction: column;
+}
+
+.flexContainerDiv div {
+    margin: auto 0;
+}
+
+/* Navagation Bar */
+nav{
+    display: inline-block;
+    margin: auto;
+}
+
+
